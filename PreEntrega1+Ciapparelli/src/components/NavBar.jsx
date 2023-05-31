@@ -1,18 +1,21 @@
 
-const Header = () => {
+const NavBar = () => {
     return(
-        <header>
-            <a href="#">THE VALVE</a>
+        <header className="header">
+            <div className="headerContainer">
+            <a href="#" className="logo">THE VALVE</a>
                 <img src="" alt="" />
             <nav>
-                <a href="#">Categorías</a>
-                <a href="#">PC de Escritorio</a>
-                <a href="#">Notebook</a>
-                <a href="#">OUTLET</a>
-                <a href="#">ARMA TU PC!</a>
+                <a href="#" className="link">Categorías</a>
+                <a href="#" className="link">PC de Escritorio</a>
+                <a href="#" className="link">Notebook</a>
+                <a href="#" className="link">OUTLET</a>
+                <a href="#" className="link">ARMA TU PC!</a>
             </nav>
+            </div>
 
         </header>
     )
 }
 
+export default NavBar

@@ -1,15 +1,17 @@
-import Header from './components/NavBar'
+import Navbar from './components/NavBar'
+import ItemListContainer from './components/ItemListContainer'
 
 function App () {
 
   return (
     <div>
-      <Header />
+      <Navbar />
+      <ItemListContainer />
     </div>
   )
 }
 
-
+export default App
 
 
 
